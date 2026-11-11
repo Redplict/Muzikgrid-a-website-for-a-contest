@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.svg">
+    <title>MUZIKGRID</title>
+</head>
+<body>
+    <header class="index-header">
+        <div class="index-header_full">
+            <div class="index-header_left">
+                <a class="index-header_logo" href="index.html">
+                    <img class="index-header_logo-img" src="assets/img/header-logo.svg" alt="" loading="lazy">
+                </a>
+            </div>
+            <div class="index-header_right">
+                <form class="index-header_form" action="" onsubmit="return false;">
+                    <input class="index-header_input" id="searchInput" type="text" list="albums" placeholder="Search">
+                    <datalist class="index-header_datalist" id="albums">
+                        <option value="Metallica - Black Album">
+                        <option value="Metallica - Master of Puppets">
+                        <option value="Motorhead - Ace of Spades">
+                        <option value="Black Sabbath - Paranoid">
+                        <option value="Rob Zombie - The Sinister Urge">
+                        <option value="Metallica - Kill 'Em All">
+                        <option value="Rob Zombie - HellBilly Deluxe">
+                        <option value="Nirvana - Bleach">
+                        <option value="Down and Outlaws - Above Snakes">
+                        <option value="Linkin Park - Meteora">
+                        <option value="Down and Outlaws - Gas Money">
+                        <option value="Nirvana - In Utero">
+                        <option value="Spiderbait - Tonight Allright">
+                        <option value="Radiohead - A Moon Shaped Pool">
+                    </datalist>
+                </form>
+                <a class="index-header_about-btn" href="about.html">
+                    <img class="about-btn_icon" src="assets/img/about-btn.svg" alt="" loading="lazy">
+                </a>
+            </div>
+        </div>
+        <div class="index-header_hero">
+            <div class="index-header_hero-wrapper">
+                <img class="hero_img" src="assets/img/hero.svg" alt="" loading="lazy">
+                <h2 class="hero_text">PRE-WINTER SALE</h2>
+            </div>
+        </div>
+    </header>
+    <main class="index-main">
+        <h2 class="index-main_category-title">HEAVY METAL</h2>
+        <div class="index-main_heavy-metal index-main_category" id="heavyMetalCategory"></div>
+        <h2 class="index-main_category-title">ALTERNATIVE ROCK</h2>
+        <div class="index-main_alternative-rock index-main_category" id="alternativeRockCategory"></div>
+    </main>
+    <footer class="index-footer">
+        <div class="index-footer_wrapper">
+            <img class="index-footer_img" src="assets/img/avatar.svg" alt="">
+            <h2 class="index-footer_text">
+                Non-commercial website created by Redplict for a contest. 
+                All content and media belong to their owners.
+            </h2>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
